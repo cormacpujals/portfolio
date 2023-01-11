@@ -1,3 +1,56 @@
 * {
   text-align: center;
+  /*margin: 1vmin 0 0 0;*/
+  overflow: hidden;
+  /*background-color: white;*/
+}
+
+.linkedin > img {
+  margin: 3vmin;
+  height: 4vmin;
+  width: 4vmin;
+}
+
+.linkedin:hover > img{
+  transform: scale(1.5);
+}
+
+.github > img {
+  margin: 3vmin;
+  height: 4vmin;
+  width: 4vmin;
+}
+
+.github:hover > img{
+  transform: scale(1.5);
+}
+
+.twitter > img {
+  margin: 3vmin;
+  height: 4vmin;
+  width: 4vmin;
+}
+
+.twitter:hover > img{
+  transform: scale(1.5);
+}
+
+.resume > img {
+  margin: 3vmin;
+  height: 4vmin;
+  width: 4vmin;
+}
+
+.resume:hover > img{
+  transform: scale(1.5);
+}
+
+.email > img {
+  margin: 3vmin;
+  height: 4vmin;
+  width: 4vmin;
+}
+
+.linkedin:hover > img{
+  transform: scale(1.5);
 }

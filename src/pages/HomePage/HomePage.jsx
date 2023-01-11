@@ -15,8 +15,9 @@ export default function HomePage() {
       />
       <h1 
       style={{
-        color: 'white',
-        background: 'rgba(0, 0, 0, 0.6)',
+        color: "white",
+        textShadow: "1px 1px 3px black",
+        // background: 'rgba(0, 0, 0, 0.6)',
         width: "30vw",
         margin: "5vmin auto 0"
       }}
