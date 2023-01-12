@@ -63,8 +63,8 @@ export default function HomePage() {
                 (All technologies: MongoDB/Mongoose, Express, React, Node, JavaScript, CSS, HTML. Git for version control and Trello,
                 Canva, and LucidChart for project planning and design)</li>
             </ul>
-            <a href=""><button>Demo</button></a>
-            <a href=""><button>Github</button></a>
+            <a href="https://nationalparksrock.herokuapp.com/" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/cormacpujals/nationalparksrock" target="_blank"><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>GetTogether</h3>
@@ -75,8 +75,8 @@ export default function HomePage() {
               <li>Full-stack with user-centric CRUD app written in Python/Django. Additional technologies: AWS, HTML, CSS, JavaScript,
                 and DTL. Git for version control and Trello, Canva, and LucidChart for project planning and design</li>
             </ul>
-            <a href=""><button>Demo</button></a>
-            <a href=""><button>Github</button></a>
+            <a href="https://gettogether.herokuapp.com/" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/kailahk/project-3" target="_blank"><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>Bouldering Paradise</h3>
@@ -86,8 +86,8 @@ export default function HomePage() {
               <br/>
               <li>Full stack CRUD app made with MongoDB, Express, Node, JavaScript, HTML, CSS, deployed on Heroku </li>
             </ul>
-            <a href=""><button>Demo</button></a>
-            <a href=""><button>Github</button></a>
+            <a href="https://boulderingparadise.herokuapp.com/posts" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/cormacpujals/bouldering" target="_blank"><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>Spaceman</h3>
@@ -98,8 +98,8 @@ export default function HomePage() {
               <br/>
               <li>Single-page browser game made with JavaScript, HTML, and CSS, deployed on Github Pages</li>
             </ul>
-            <a href=""><button>Demo</button></a>
-            <a href=""><button>Github</button></a>
+            <a href="https://cormacpujals.github.io/spaceman/" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/cormacpujals/spaceman" target="_blank"><button>Github</button></a>
           </div>
         </div>
         <div>
