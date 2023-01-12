@@ -3,6 +3,7 @@ import github from '../../social-icons/github.png'
 import twitter from '../../social-icons/twitter.png'
 import resume from '../../social-icons/resume.png'
 import email from '../../social-icons/email.png'
+import resumeWebsite from '../../resume/resume-website.pdf'
 // import NavBar from '../../components/NavBar/NavBar';
 import './HomePage.css';
 
@@ -23,30 +24,30 @@ export default function HomePage() {
             src={twitter}/></a>
           &nbsp;
           &nbsp;
-          <a href="" className="resume" target="_blank"><img
+          <a href={resumeWebsite} className="resume" target="_blank"><img
             src={resume}/></a>
           &nbsp;
           &nbsp;
-          <a href="" className="email" target="_blank"><img
+          <a href="mailto:cmpujals@gmail.com" className="email" target="_blank"><img
             src={email}/></a>
         </div>
         <div className="homepage-content-container">
           <div>
-            <h1>Hi, I am Cormac, a full stack web developer!</h1>
+            <h1>Hi, I'm Cormac, a full stack web developer!</h1>
           </div>
           <img src="https://i.imgur.com/mJKh8i7.jpg"/>
           <div className="textbox">
             <h3>
-              I am passionate about using technology to solve complex problems and improve people's lives.
+              I'm passionate about using technology to solve complex problems and improve people's lives.
             </h3>
             <p>
-              Those passions brought me to the European Central Bank where I worked as a research analyst
+              I started my career at the European Central Bank as a research analyst
               programming in R, Stata and Python. After discovering how much I enjoyed programming
-              and building end-user experiences, I transitioned into the world web development and I haven’t
+              and building user experiences, I transitioned into full stack JavaScript and haven’t
               looked back since!
             </p>
-            <a href="#projects-container"><button>View Projects</button></a>
           </div>
+          <a href="#projects-container"><button>View Projects</button></a>
         </div>
       </div>
       <div className="second-page">
@@ -54,25 +55,49 @@ export default function HomePage() {
         <div id="projects-container" className="projects-container">
           <div className="project-container">
             <h3>NationalParksRock</h3>
-            <p></p>
+            <ul>
+              <li>Application designed to make discovering and tracking
+                national parks that you want to visit easy and fun.</li>
+              <br/>
+              <li>User-centric SPA built with the MERN-stack. Utilizes JWT tokens for user passwords.
+                (All technologies: MongoDB/Mongoose, Express, React, Node, JavaScript, CSS, HTML. Git for version control and Trello,
+                Canva, and LucidChart for project planning and design)</li>
+            </ul>
             <a href=""><button>Demo</button></a>
             <a href=""><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>GetTogether</h3>
-            <p></p>
+            <ul>
+              <li>Community-oriented website created by a team of 3 developers
+                where folks can find local events to attend or post their own.</li>
+              <br/>
+              <li>Full-stack with user-centric CRUD app written in Python/Django. Additional technologies: AWS, HTML, CSS, JavaScript,
+                and DTL. Git for version control and Trello, Canva, and LucidChart for project planning and design</li>
+            </ul>
             <a href=""><button>Demo</button></a>
             <a href=""><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>Bouldering Paradise</h3>
-            <p></p>
+            <ul>
+              <li>Fun website designed to offer climbers a way to connect over their
+                shared passion for bouldering. Create posts with photos and descriptions of your favorite boulders</li>
+              <br/>
+              <li>Full stack CRUD app made with MongoDB, Express, Node, JavaScript, HTML, CSS, deployed on Heroku </li>
+            </ul>
             <a href=""><button>Demo</button></a>
             <a href=""><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>Spaceman</h3>
-            <p></p>
+            <ul>
+              <li>Spaceman is fun spin on the classic game of Hangman. In my version
+                of Spaceman, the player is an astronaut in-training going through a mission
+                simulation</li>
+              <br/>
+              <li>Single-page browser game made with JavaScript, HTML, and CSS, deployed on Github Pages</li>
+            </ul>
             <a href=""><button>Demo</button></a>
             <a href=""><button>Github</button></a>
           </div>
@@ -90,11 +115,11 @@ export default function HomePage() {
             src={twitter}/></a>
           &nbsp;
           &nbsp;
-          <a href="" className="resume" target="_blank"><img
+          <a href={resumeWebsite} className="resume" target="_blank"><img
             src={resume}/></a>
           &nbsp;
           &nbsp;
-          <a href="" className="email" target="_blank"><img
+          <a href="mailto:cmpujals@gmail.com" className="email" target="_blank"><img
             src={email}/></a>
         </div>
       </div>

@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: .05fr 1fr;
   height: 100vh;
-
 }
 
 .icons {
@@ -16,7 +15,7 @@
 }
 
 button {
-  margin-top: 2vmin;
+  /*margin-top: 2vmin;*/
   background-color: rgba(0, 0, 255, 0.7);
   border-radius: 5px;
   font-size: 2vmin;
@@ -25,46 +24,63 @@ button {
   color: white;
 }
 
+.homepage-content-container > a > button {
+  position: relative;
+  bottom: -20px;
+  margin-top: 2vmin;
+}
+
 button:hover {
   background-color: blue;
 }
 
+.project-container > div > a {
+  /*position: relative;*/
+  /*bottom: -3vmin;*/
+  /*left: 5px;*/
+  /*margin: 2vmin;*/
+}
+
 .homepage > div > div > h1 {
-  font-size: 4vmin;
+  font-size: 3.5vmin;
   color: rgba(0, 0, 0, 0.8);
-  width: 30vw;
+  width: 45vw;
   margin: 5vmin auto 0;
 }
 
 .homepage > div > img {
   height: 30vmin;
   width: 30vmin;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 50%;
-  border: solid 2vmin rgba(0, 0, 100, 0.1);
+  border: solid 1.5vmin rgba(0, 0, 100, 0.1);
   margin: 5vh auto 0;
 }
 .textbox {
   background-color: white;
-  margin: 4vmin 20vmin 5vmin;
   padding: 0.5vmin 5vmin ;
   border-radius: 20px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 2.5vmin;
   border: solid 1vmin rgba(255, 255, 255, 0.5);
-}
-
-.textbox > h3, p {
-  /*max-width: 1300px;*/
+  margin-top: 2vmin;
 }
 
 .textbox > h3 {
   color: rgba(0, 0, 0, 0.7);
+  font-size: 3vmin;
 }
 
+.textbox > p {
+  font-size: 2.5vmin;
+  padding-top: 2vmin;
+}
 .second-page {
   height: 100vh;
   width: 100vw;
-  background-image: url("../../../public/images/SF-GGB-background-image.avif");
+  background: linear-gradient(rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.2)),
+  url("../../../public/images/SF-GGB-background-image.avif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -79,9 +95,18 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.97);
   border-radius: 10px;
   margin: 7vmin;
-  /*box-shadow: 1px 1px 1.5vmin;*/
 }
 
 .project-container > a {
   margin: 0 2vmin 0;
+}
+
+.project-container > h3 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 2.5vmin;
+}
+
+ul > li {
+  margin-right: 16px;
+  font-size: 1.5vmin;
 }
