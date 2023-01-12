@@ -1,7 +1,7 @@
 * {
   text-align: center;
   /*margin: 1vmin 0 0 0;*/
-  overflow: hidden;
+  /*overflow: hidden;*/
   /*background-color: white;*/
 }
 
@@ -9,6 +9,8 @@
   margin: 3vmin;
   height: 4vmin;
   width: 4vmin;
+  background: white;
+  border-radius: 10%;
 }
 
 .linkedin:hover > img{
@@ -51,6 +53,6 @@
   width: 4vmin;
 }
 
-.linkedin:hover > img{
+.email:hover > img{
   transform: scale(1.5);
 }

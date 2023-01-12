@@ -1,0 +1,59 @@
+.homepage {
+  display: grid;
+  grid-template-columns: .05fr 1fr;
+  height: 100vh;
+
+}
+
+.icons {
+  display: grid;
+  align-content: center;
+
+}
+
+.homepage-content-container {
+  margin: 0 7vmin 0 0;
+}
+
+.homepage > div > div > h1 {
+  font-size: 4vmin;
+  color: rgba(0, 0, 0, 0.8);
+  width: 30vw;
+  margin: 5vmin auto 0;
+}
+
+.homepage > div > img {
+  height: 30vmin;
+  width: 30vmin;
+  border-radius: 50%;
+  border: solid 2vmin rgba(0, 0, 100, 0.1);
+  margin: 5vh auto 0;
+}
+.textbox {
+  background-color: white;
+  margin: 4vmin 20vmin 5vmin;
+  padding: 0.5vmin 5vmin ;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 2.5vmin;
+  border: solid 1vmin rgba(255, 255, 255, 0.5);
+  /*text-align: center;*/
+}
+
+.textbox > h3, p {
+  /*max-width: 65vw;*/
+}
+
+.textbox > h3 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.projects-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("../../../public/images/SF-GGB-background-image.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
