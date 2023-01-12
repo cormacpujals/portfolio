@@ -12,7 +12,21 @@
 }
 
 .homepage-content-container {
-  margin: 0 7vmin 0 0;
+  margin: 0 8.5vmin 0 0;
+}
+
+button {
+  margin-top: 2vmin;
+  background-color: rgba(0, 0, 255, 0.7);
+  border-radius: 5px;
+  font-size: 2vmin;
+  border: none;
+  padding: 1vmin;
+  color: white;
+}
+
+button:hover {
+  background-color: blue;
 }
 
 .homepage > div > div > h1 {
@@ -37,23 +51,37 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 2.5vmin;
   border: solid 1vmin rgba(255, 255, 255, 0.5);
-  /*text-align: center;*/
 }
 
 .textbox > h3, p {
-  /*max-width: 65vw;*/
+  /*max-width: 1300px;*/
 }
 
 .textbox > h3 {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.projects-container {
+.second-page {
   height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 100vw;
   background-image: url("../../../public/images/SF-GGB-background-image.avif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.projects-container {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  height: 89vh;
+}
+
+.project-container {
+  background-color: rgba(255, 255, 255, 0.97);
+  border-radius: 10px;
+  margin: 7vmin;
+  /*box-shadow: 1px 1px 1.5vmin;*/
+}
+
+.project-container > a {
+  margin: 0 2vmin 0;
 }

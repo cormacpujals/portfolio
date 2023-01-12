@@ -3,12 +3,13 @@ import github from '../../social-icons/github.png'
 import twitter from '../../social-icons/twitter.png'
 import resume from '../../social-icons/resume.png'
 import email from '../../social-icons/email.png'
+// import NavBar from '../../components/NavBar/NavBar';
 import './HomePage.css';
 
 export default function HomePage() {
   return (
     <>
-      <div className="homepage">
+      <div id="first-page" className="homepage">
         <div className="icons">
           <a href="https://www.linkedin.com/in/cormacpujals/" className="linkedin" target="_blank"><img
             src={linkedin}/></a>
@@ -44,14 +45,58 @@ export default function HomePage() {
               and building end-user experiences, I transitioned into the world web development and I haven’t
               looked back since!
             </p>
+            <a href="#projects-container"><button>View Projects</button></a>
           </div>
         </div>
       </div>
-      <div className="projects-container">
-        <div className="project-container"><h3>NationalParksRock</h3></div>
-        <div className="project-container"><h3>GetTogether</h3></div>
-        <div className="project-container"><h3>Bouldering Paradise</h3></div>
-        <div className="project-container"><h3>Spaceman</h3></div>
+      <div className="second-page">
+        {/*<a href="#first-page"><button>Scroll up</button></a>*/}
+        <div id="projects-container" className="projects-container">
+          <div className="project-container">
+            <h3>NationalParksRock</h3>
+            <p></p>
+            <a href=""><button>Demo</button></a>
+            <a href=""><button>Github</button></a>
+          </div>
+          <div className="project-container">
+            <h3>GetTogether</h3>
+            <p></p>
+            <a href=""><button>Demo</button></a>
+            <a href=""><button>Github</button></a>
+          </div>
+          <div className="project-container">
+            <h3>Bouldering Paradise</h3>
+            <p></p>
+            <a href=""><button>Demo</button></a>
+            <a href=""><button>Github</button></a>
+          </div>
+          <div className="project-container">
+            <h3>Spaceman</h3>
+            <p></p>
+            <a href=""><button>Demo</button></a>
+            <a href=""><button>Github</button></a>
+          </div>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/cormacpujals/" className="linkedin" target="_blank"><img
+            src={linkedin}/></a>
+          &nbsp;
+          &nbsp;
+          <a href="https://github.com/cormacpujals" className="github" target="_blank"><img
+            src={github}/></a>
+          &nbsp;
+          &nbsp;
+          <a href="https://twitter.com/CormacPujals" className="twitter" target="_blank"><img
+            src={twitter}/></a>
+          &nbsp;
+          &nbsp;
+          <a href="" className="resume" target="_blank"><img
+            src={resume}/></a>
+          &nbsp;
+          &nbsp;
+          <a href="" className="email" target="_blank"><img
+            src={email}/></a>
+        </div>
       </div>
     </>
   )
