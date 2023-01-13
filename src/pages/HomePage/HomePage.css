@@ -14,7 +14,6 @@
 }
 
 button {
-  /*margin-top: 2vmin;*/
   background-color: rgba(0, 0, 255, 0.7);
   border-radius: 5px;
   font-size: 2vmin;
@@ -148,7 +147,68 @@ ul > li {
   }
 
   ul > li {
-    font-size: 2.3vmin;
+    font-size: 2vmin;
     color: rgba(0, 0, 0, 0.6);
   }
 }
+
+@media all and (max-height: 700px) {
+
+  .homepage {
+    height: 100vh;
+  }
+
+  .homepage > .icons {
+    position: relative;
+    display: grid;
+    margin-top: 4vmin;
+    align-content: start;
+  }
+
+  .homepage > div > div > h1 {
+    font-size: 5vmin;
+  }
+
+  .homepage > div > img {
+    margin-top: 7vmin;
+    height: 50vmin;
+    width: 50vmin;
+  }
+
+  .textbox > h3 {
+    font-size: 4.5vmin;
+  }
+
+  .textbox > p {
+    font-size: 3.5vmin;
+  }
+
+  .homepage-content-container > a > button {
+    font-size: 4vmin;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    display: grid;
+    height: 95vh;
+  }
+
+  .project-container > h3 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  ul > li {
+    font-size: 1.5vmin;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .project-container > a > button {
+    font-size: 3vmin;
+    margin: 0 1vmin 1vmin 1vmin;
+  }
+  .project-container {
+    margin: 5vmin;
+  }
+}
+
+
