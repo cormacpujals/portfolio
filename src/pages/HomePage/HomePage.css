@@ -7,7 +7,6 @@
 .icons {
   display: grid;
   align-content: center;
-
 }
 
 .homepage-content-container {
@@ -32,13 +31,6 @@ button {
 
 button:hover {
   background-color: blue;
-}
-
-.project-container > div > a {
-  /*position: relative;*/
-  /*bottom: -3vmin;*/
-  /*left: 5px;*/
-  /*margin: 2vmin;*/
 }
 
 .homepage > div > div > h1 {
@@ -109,4 +101,54 @@ button:hover {
 ul > li {
   margin-right: 16px;
   font-size: 1.5vmin;
+}
+
+@media all and (max-width: 700px) {
+  .homepage {
+    height: 100vh;
+  }
+
+  .homepage > .icons {
+    position: relative;
+    display: grid;
+    margin-top: 4vmin;
+    align-content: start;
+  }
+
+  .homepage > div > div > h1 {
+    font-size: 6vmin;
+  }
+
+  .homepage > div > img {
+    margin-top: 7vmin;
+    height: 50vmin;
+    width: 50vmin;
+  }
+
+  .textbox > h3 {
+    font-size: 5vmin;
+  }
+
+  .textbox > p {
+    font-size: 4vmin;
+  }
+
+  .homepage-content-container > a > button {
+    font-size: 4vmin;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    display: grid;
+    height: 95vh;
+  }
+
+  .project-container > h3 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  ul > li {
+    font-size: 2.3vmin;
+    color: rgba(0, 0, 0, 0.6);
+  }
 }
