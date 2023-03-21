@@ -11,6 +11,7 @@
 
 .homepage-content-container {
   margin: 0 8.5vmin 0 0;
+  text-align: center;
 }
 
 button {
@@ -69,40 +70,31 @@ button:hover {
 .second-page {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.2),
-  rgba(0, 0, 0, 0.2)),
-  url("../../../public/images/SF-GGB-background-image.avif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
+
+#left-align {
+  margin-left: 5vw;
+  margin-right: 45vw;
+  text-align: left;
+}
+
+#right-align {
+  margin-right: 5vw;
+  margin-left: 45vw;
+  text-align: right;
+}
+
 .projects-container {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   display: grid;
   height: 89vh;
 }
 
 .project-container {
-  background-color: rgba(255, 255, 255, 0.97);
-  border-radius: 10px;
-  margin: 7vmin;
+  /* width: 100vw; */
 }
 
-.project-container > a {
-  margin: 0 2vmin 0;
-}
-
-.project-container > h3 {
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 2.5vmin;
-}
-
-ul > li {
-  margin-right: 16px;
-  font-size: 1.5vmin;
-}
-
-@media all and (max-width: 700px) {
+/* @media all and (max-width: 700px) {
   .homepage {
     height: 100vh;
   }
@@ -150,9 +142,9 @@ ul > li {
     font-size: 2vmin;
     color: rgba(0, 0, 0, 0.6);
   }
-}
+} */
 
-@media all and (max-height: 700px) {
+/* @media all and (max-height: 700px) {
 
   .homepage {
     height: 100vh;
@@ -211,4 +203,4 @@ ul > li {
   }
 }
 
-
+ */
