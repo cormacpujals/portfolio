@@ -53,7 +53,7 @@ export default function HomePage() {
       <div className="second-page">
         {/*<a href="#first-page"><button>Scroll up</button></a>*/}
         <div id="projects-container" className="projects-container">
-          <div id="left-align" className="project-container">
+          <div className="project-container">
             <h3>NationalParksRock</h3>
             <ul>
               <li>Application designed to make discovering and tracking
@@ -64,9 +64,9 @@ export default function HomePage() {
                 Canva, and LucidChart for project planning and design)</li>
             </ul>
             <a href="https://nationalparksrock.herokuapp.com/" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/cormacpujals/nationalparksrock" target="_blank"><button>GitHub</button></a>
+            <a href="https://github.com/cormacpujals/nationalparksrock" target="_blank"><button>Github</button></a>
           </div>
-          <div id="right-align" className="project-container">
+          <div className="project-container">
             <h3>GetTogether</h3>
             <ul>
               <li>Community-oriented website created by a team of 3 developers
@@ -76,9 +76,9 @@ export default function HomePage() {
                 and DTL. Git for version control and Trello, Canva, and LucidChart for project planning and design</li>
             </ul>
             <a href="https://gettogether.herokuapp.com/" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/kailahk/project-3" target="_blank"><button>GitHub</button></a>
+            <a href="https://github.com/kailahk/project-3" target="_blank"><button>Github</button></a>
           </div>
-          <div id="left-align" className="project-container">
+          <div className="project-container">
             <h3>Bouldering Paradise</h3>
             <ul>
               <li>Fun website designed to offer climbers a way to connect over their
@@ -87,9 +87,9 @@ export default function HomePage() {
               <li>Full stack CRUD app made with MongoDB, Express, Node, JavaScript, HTML, CSS, deployed on Heroku </li>
             </ul>
             <a href="https://boulderingparadise.herokuapp.com/posts" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/cormacpujals/bouldering" target="_blank"><button>GitHub</button></a>
+            <a href="https://github.com/cormacpujals/bouldering" target="_blank"><button>Github</button></a>
           </div>
-          <div id="right-align" className="project-container">
+          <div className="project-container">
             <h3>Spaceman</h3>
             <ul>
               <li>Spaceman is fun spin on the classic game of Hangman. In my version
@@ -99,7 +99,7 @@ export default function HomePage() {
               <li>Single-page browser game made with JavaScript, HTML, and CSS, deployed on Github Pages</li>
             </ul>
             <a href="https://cormacpujals.github.io/spaceman/" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/cormacpujals/spaceman" target="_blank"><button>GitHub</button></a>
+            <a href="https://github.com/cormacpujals/spaceman" target="_blank"><button>Github</button></a>
           </div>
         </div>
         <div>
