@@ -55,51 +55,31 @@ export default function HomePage() {
         <div id="projects-container" className="projects-container">
           <div className="project-container">
             <h3>NationalParksRock</h3>
-            <ul>
-              <li>Application designed to make discovering and tracking
-                national parks that you want to visit easy and fun.</li>
-              <br/>
-              <li>User-centric SPA built with the MERN-stack. Utilizes JWT tokens for user passwords.
-                (All technologies: MongoDB/Mongoose, Express, React, Node, JavaScript, CSS, HTML. Git for version control and Trello,
-                Canva, and LucidChart for project planning and design)</li>
-            </ul>
-            <a href="https://nationalparksrock.herokuapp.com/" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/cormacpujals/nationalparksrock" target="_blank"><button>Github</button></a>
+            <img src="https://i.imgur.com/QqsO4Xl.jpg" alt="" />
+            <p>User-centric (JWT tokens for auth) SPA built with MongoDB, Express, React, and Node. The app makes discovering and tracking national parks that you want to visit easy and fun</p>
+            <a href="https://nationalparksrock.herokuapp.com/" target="_blank">Demo</a>
+            <a href="https://github.com/cormacpujals/nationalparksrock" target="_blank">Github</a>
           </div>
           <div className="project-container">
             <h3>GetTogether</h3>
-            <ul>
-              <li>Community-oriented website created by a team of 3 developers
-                where folks can find local events to attend or post their own.</li>
-              <br/>
-              <li>Full-stack with user-centric CRUD app written in Python/Django. Additional technologies: AWS, HTML, CSS, JavaScript,
-                and DTL. Git for version control and Trello, Canva, and LucidChart for project planning and design</li>
-            </ul>
-            <a href="https://gettogether.herokuapp.com/" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/kailahk/project-3" target="_blank"><button>Github</button></a>
+            <img src="https://i.imgur.com/4Gz2VSD.png" alt="" />
+            <p>Full stack with user-centric CRUD app written in Python/Django. A community-oriented website that brings locals together</p>
+            <a href="https://gettogether.herokuapp.com/" target="_blank">Demo</a>
+            <a href="https://github.com/kailahk/project-3" target="_blank">Github</a>
           </div>
           <div className="project-container">
             <h3>Bouldering Paradise</h3>
-            <ul>
-              <li>Fun website designed to offer climbers a way to connect over their
-                shared passion for bouldering. Create posts with photos and descriptions of your favorite boulders</li>
-              <br/>
-              <li>Full stack CRUD app made with MongoDB, Express, Node, JavaScript, HTML, CSS, deployed on Heroku </li>
-            </ul>
-            <a href="https://boulderingparadise.herokuapp.com/posts" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/cormacpujals/bouldering" target="_blank"><button>Github</button></a>
+            <img src="https://i.imgur.com/ywLArEx.png" alt="" />
+            <p>Full stack JavaScript with Express.js backend, user-centric CRUD app designed to offer climbers a way to connect over their shared passion for bouldering</p>
+            <a href="https://boulderingparadise.herokuapp.com/posts" target="_blank">Demo</a>
+            <a href="https://github.com/cormacpujals/bouldering" target="_blank">Github</a>
           </div>
           <div className="project-container">
             <h3>Spaceman</h3>
-            <ul>
-              <li>Spaceman is fun spin on the classic game of Hangman. In my version
-                of Spaceman, the player is an astronaut in-training going through a mission
-                simulation</li>
-              <br/>
-              <li>Single-page browser game made with JavaScript, HTML, and CSS, deployed on Github Pages</li>
-            </ul>
-            <a href="https://cormacpujals.github.io/spaceman/" target="_blank"><button>Demo</button></a>
-            <a href="https://github.com/cormacpujals/spaceman" target="_blank"><button>Github</button></a>
+            <img src="https://i.imgur.com/jzlTVtJ.png" alt="" />
+            <p>Spaceman is fun spin on the classic game of Hangman built with JavaScript, HTML, and CSS</p>
+            <a href="https://cormacpujals.github.io/spaceman/" target="_blank">Demo</a>
+            <a href="https://github.com/cormacpujals/spaceman" target="_blank">Github</a>
           </div>
         </div>
         <div>

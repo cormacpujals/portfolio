@@ -67,14 +67,14 @@ button:hover {
   padding-top: 2vmin;
 }
 .second-page {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.2),
-  rgba(0, 0, 0, 0.2)),
-  url("../../../public/images/SF-GGB-background-image.avif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.9), */
+  /* rgba(0, 0, 0, 0.2)), */
+  /* url("../../../public/images/SF-GGB-background-image.avif"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
 }
 .projects-container {
   grid-template-columns: 1fr 1fr;
@@ -95,6 +95,10 @@ button:hover {
 .project-container > h3 {
   color: rgba(0, 0, 0, 0.7);
   font-size: 2.5vmin;
+}
+
+.project-container > img {
+  width: 30vmin;
 }
 
 ul > li {
