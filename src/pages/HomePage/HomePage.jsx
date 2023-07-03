@@ -4,7 +4,6 @@ import twitter from '../../social-icons/twitter.png'
 import resume from '../../social-icons/resume.png'
 import email from '../../social-icons/email.png'
 import resumeWebsite from '../../resume/resume-website.pdf'
-// import NavBar from '../../components/NavBar/NavBar';
 import './HomePage.css';
 
 export default function HomePage() {
@@ -57,32 +56,32 @@ export default function HomePage() {
             <h3>NationalParksRock</h3>
             <img src="https://i.imgur.com/QqsO4Xl.jpg" alt="" />
             <p>User-centric (JWT tokens for auth) SPA built with MongoDB, Express, React, and Node. The app makes discovering and tracking national parks that you want to visit easy and fun</p>
-            <a href="https://nationalparksrock.herokuapp.com/" target="_blank">Demo</a>
-            <a href="https://github.com/cormacpujals/nationalparksrock" target="_blank">Github</a>
+            <a className="demo" href="https://nationalparksrock.herokuapp.com/" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/cormacpujals/nationalparksrock" target="_blank"><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>GetTogether</h3>
             <img src="https://i.imgur.com/4Gz2VSD.png" alt="" />
             <p>Full stack with user-centric CRUD app written in Python/Django. A community-oriented website that brings locals together</p>
-            <a href="https://gettogether.herokuapp.com/" target="_blank">Demo</a>
-            <a href="https://github.com/kailahk/project-3" target="_blank">Github</a>
+            <a className="demo" href="https://gettogether.herokuapp.com/" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/kailahk/project-3" target="_blank"><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>Bouldering Paradise</h3>
             <img src="https://i.imgur.com/ywLArEx.png" alt="" />
             <p>Full stack JavaScript with Express.js backend, user-centric CRUD app designed to offer climbers a way to connect over their shared passion for bouldering</p>
-            <a href="https://boulderingparadise.herokuapp.com/posts" target="_blank">Demo</a>
-            <a href="https://github.com/cormacpujals/bouldering" target="_blank">Github</a>
+            <a className="demo" href="https://boulderingparadise.herokuapp.com/posts" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/cormacpujals/bouldering" target="_blank"><button>Github</button></a>
           </div>
           <div className="project-container">
             <h3>Spaceman</h3>
             <img src="https://i.imgur.com/jzlTVtJ.png" alt="" />
             <p>Spaceman is fun spin on the classic game of Hangman built with JavaScript, HTML, and CSS</p>
-            <a href="https://cormacpujals.github.io/spaceman/" target="_blank">Demo</a>
-            <a href="https://github.com/cormacpujals/spaceman" target="_blank">Github</a>
+            <a className="demo" href="https://cormacpujals.github.io/spaceman/" target="_blank"><button>Demo</button></a>
+            <a href="https://github.com/cormacpujals/spaceman" target="_blank"><button>Github</button></a>
           </div>
         </div>
-        <div>
+        <div className="icons-second-page">
           <a href="https://www.linkedin.com/in/cormacpujals/" className="linkedin" target="_blank"><img
             src={linkedin}/></a>
           &nbsp;
