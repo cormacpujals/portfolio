@@ -75,23 +75,12 @@ button:hover {
 *****************/
 
 .second-page {
-  /* height: 100vh; */
   width: 100vw;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.9), */
-  /* rgba(0, 0, 0, 0.2)), */
-  /* url("../../../public/images/SF-GGB-background-image.avif"); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
 }
 
-/* .second-page > .icons-second-page {
-  position: fixed;
-} */
 .projects-container {
   grid-template-columns: 1fr;
   display: grid;
-  /* height: 89vh; */
 }
 
 .project-container {
@@ -165,7 +154,6 @@ ul > li {
   .projects-container {
     grid-template-columns: 1fr;
     display: grid;
-    /* height: 95vh; */
   }
 
   .project-container {
@@ -219,7 +207,6 @@ ul > li {
   .projects-container {
     grid-template-columns: 1fr;
     display: grid;
-    /* height: 95vh; */
   }
 
   .project-container > h3 {
